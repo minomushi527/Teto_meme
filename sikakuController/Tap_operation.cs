@@ -38,13 +38,8 @@ public class Tap_operation : MonoBehaviour
     public GameObject bad_prefab;
     public GameObject miss_prefab;
 
-<<<<<<< HEAD
     public Vector3 hantei_syokiiti_right = new Vector3(15f, -3f, 0.0f);
     public Vector3 hantei_syokiiti_under = new Vector3(8f, -11f, 9.0f);
-=======
-    public Vector3 hantei_syokiiti_right = new Vector3(6.0f, -4.5f, 0.0f);
-    public Vector3 hantei_syokiiti_under = new Vector3(1.2f, -8.1f, 9.0f);
->>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
 
 
     // 1:左上 2:右上 3:右下 4:左下
