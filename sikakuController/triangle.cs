@@ -22,7 +22,11 @@ public class Triangle : MonoBehaviour
 
     //private float bpm = 89; //1分間に89回
 
+<<<<<<< HEAD
     private float speed = 3.411667f * 2;//計算->2.3(正方形の一辺) / (60[min]/89[bpm])
+=======
+    private float speed = 3.411667f;//計算->2.3(正方形の一辺) / (60[min]/89[bpm])
+>>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
     //少数第七位四捨五入
 
     //誘導のための正解のリズムをならす
