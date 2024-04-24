@@ -64,15 +64,9 @@ public class ScoreMove : MonoBehaviour
         //miss
         if (state == 0)
         {
-<<<<<<< HEAD
             miss.transform.Translate(-speed * Time.deltaTime, 0f, 0f, Space.Self);
             objectPosition = miss.transform.position;
             if (objectPosition.x < 923)
-=======
-            miss.transform.Translate(speed * Time.deltaTime, 0f, 0f, Space.Self);
-            objectPosition = miss.transform.position;
-            if (objectPosition.x > 485)
->>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
             {
                 sound.PlayOneShot(good_sound);
                 state = 1;
@@ -82,15 +76,9 @@ public class ScoreMove : MonoBehaviour
         //bad
         else if (state == 1)
         {
-<<<<<<< HEAD
             bad.transform.Translate(-speed * Time.deltaTime, 0f, 0f, Space.Self);
             objectPosition = bad.transform.position;
             if (objectPosition.x < 950)
-=======
-            bad.transform.Translate(speed * Time.deltaTime, 0f, 0f, Space.Self);
-            objectPosition = bad.transform.position;
-            if (objectPosition.x > 551)
->>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
             {
                 sound.PlayOneShot(good_sound);
                 state = 2;
@@ -100,15 +88,9 @@ public class ScoreMove : MonoBehaviour
         //nice
         else if (state == 2)
         {
-<<<<<<< HEAD
             nice.transform.Translate(-speed * Time.deltaTime, 0f, 0f, Space.Self);
             objectPosition = nice.transform.position;
             if (objectPosition.x < 942)
-=======
-            nice.transform.Translate(speed * Time.deltaTime, 0f, 0f, Space.Self);
-            objectPosition = nice.transform.position;
-            if (objectPosition.x > 568)
->>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
             {
                 sound.PlayOneShot(good_sound);
                 state = 3;
@@ -118,15 +100,9 @@ public class ScoreMove : MonoBehaviour
         //excellent
         else if (state == 3)
         {
-<<<<<<< HEAD
             excellent.transform.Translate(-speed * Time.deltaTime, 0f, 0f, Space.Self);
             objectPosition = excellent.transform.position;
             if (objectPosition.x < 827)
-=======
-            excellent.transform.Translate(speed * Time.deltaTime, 0f, 0f, Space.Self);
-            objectPosition = excellent.transform.position;
-            if (objectPosition.x > 587)
->>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
             {
                 sound.PlayOneShot(excelent_sound);
                 state = 4;
@@ -146,11 +122,7 @@ public class ScoreMove : MonoBehaviour
         }
         else if (state == 5)
         {
-<<<<<<< HEAD
             touch.GetComponent<TextMeshProUGUI>().text = "クリックで戻る";
-=======
-            touch.GetComponent<TextMeshProUGUI>().text = "画面をタップで戻る";
->>>>>>> 959dbc3f8bdddeee1e355568b49c42f53bcc2db2
             state = 6;
         }
         else if (state == 6)
